@@ -62,7 +62,7 @@ http://www.vagrantup.com/downloads.html
 http://sketchings.com/wp-content/uploads/2015/02/puphpet.zip
 we will be using NGINX on Debian with PHP 5.6
 4. Extract the .zip file and move the contents (Vagrantfile and puphpet folder) to the location on your computer where you would like to store this project.
-5 Using the terminal, or cmd line, cd into your extracted directory and run `vagrant up`. This will kick-off the initial process.
+5. Using the terminal, or cmd line, cd into your extracted directory and run `vagrant up`. This will kick-off the initial process.
   * Vagrant will download the box file, which can take a few minutes. It will only have to do this once, even if you create separate environments later on.
   * Then, it will hand control over to Puppet which will begin setting up your environment by installing required packages and configuring tools as desired.
   * You will then be able to ssh into your new box with `vagrant ssh`. You can also access any virtual hosts you created by editing your hosts file and creating entries for the Box IP Address and Server Name you provided during configuration (see step 6 below).
