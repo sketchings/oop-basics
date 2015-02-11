@@ -71,3 +71,5 @@ we will be using NGINX on Debian with PHP 5.6
   * Windows users could look here: c:\windows\system32\drivers\etc\hosts
   * Linux and Mac OSX users could look here: /etc/hosts or /private/etc/hosts.
   * Example Entry: `192.168.56.101 oophp.dev www.oophp.dev`
+
+[Link to google slide presentation](https://docs.google.com/presentation/d/1DLupJE6xLZmedPFVFJTcEckGHnSrUclql2xomKKmNFk/edit?usp=sharing)
