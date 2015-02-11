@@ -45,10 +45,10 @@ If you don’t have a anything yet, never fear, you have 2 options. If you have 
 
 1. Sign up at Cloud 9: https://c9.io/
 2. Create a new workspace
-  a. Name your workspace
-  b. Choose PHP
-  c. Press “CREATE”
-  d. Wait a few minutes for the workspace to be setup
+ * Name your workspace
+ * Choose PHP as the type of project
+ * Press “CREATE”
+ * Wait a few minutes for the workspace to be setup
 3. Click on the workspace on the left.
 4. Choose “START EDITING”, green button on the right.
 
