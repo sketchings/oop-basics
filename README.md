@@ -45,10 +45,10 @@ If you don’t have a anything yet, never fear, you have 2 options. If you have 
 
 1. Sign up at Cloud 9: https://c9.io/
 2. Create a new workspace
-  a. Name your workspace
-  b. Choose PHP
-  c. Press “CREATE”
-  d. Wait a few minutes for the workspace to be setup
+ * Name your workspace
+ * Choose PHP as the type of project
+ * Press “CREATE”
+ * Wait a few minutes for the workspace to be setup
 3. Click on the workspace on the left.
 4. Choose “START EDITING”, green button on the right.
 
@@ -62,12 +62,14 @@ http://www.vagrantup.com/downloads.html
 http://sketchings.com/wp-content/uploads/2015/02/puphpet.zip
 we will be using NGINX on Debian with PHP 5.6
 4. Extract the .zip file and move the contents (Vagrantfile and puphpet folder) to the location on your computer where you would like to store this project.
-5 Using the terminal, or cmd line, cd into your extracted directory and run $ vagrant up. This will kick-off the initial process.
+5. Using the terminal, or cmd line, cd into your extracted directory and run `vagrant up`. This will kick-off the initial process.
   * Vagrant will download the box file, which can take a few minutes. It will only have to do this once, even if you create separate environments later on.
   * Then, it will hand control over to Puppet which will begin setting up your environment by installing required packages and configuring tools as desired.
-  *You will then be able to ssh into your new box with $ vagrant ssh. You can also access any virtual hosts you created by editing your hosts file and creating entries for the Box IP Address and Server Name you provided during configuration (ex:192.168.56.101 oophp.dev www.oophp.dev).
-  * To shut down the VM, simply run $ vagrant halt. To start it back up run$ vagrant up again. Destroy it with $ vagrant destroy.
+  * You will then be able to ssh into your new box with `vagrant ssh`. You can also access any virtual hosts you created by editing your hosts file and creating entries for the Box IP Address and Server Name you provided during configuration (see step 6 below).
+  * To shut down the VM, simply run `vagrant halt`. To start it back up run `vagrant up` again. Destroy it with `vagrant destroy`.
 6. You will need to open and edit your hosts file with a text editor like notepad, sublime_text, nano, etc. The location of the hosts file varies by operation system.
   * Windows users could look here: c:\windows\system32\drivers\etc\hosts
   * Linux and Mac OSX users could look here: /etc/hosts or /private/etc/hosts.
-  * Example Entry: 192.168.56.101 oophp.dev www.oophp.dev
+  * Example Entry: `192.168.56.101 oophp.dev www.oophp.dev`
+
+[Link to google slide presentation](https://docs.google.com/presentation/d/1DLupJE6xLZmedPFVFJTcEckGHnSrUclql2xomKKmNFk/edit?usp=sharing)
