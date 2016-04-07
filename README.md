@@ -72,4 +72,4 @@ we will be using NGINX on Debian with PHP 5.6
   * Linux and Mac OSX users could look here: /etc/hosts or /private/etc/hosts.
   * Example Entry: `192.168.56.101 oophp.dev www.oophp.dev`
 
-[Link to google slide presentation](http://www.slideshare.net/AlenaHolligan/demystifying-objectoriented-programming-lone-star-php)
+[Link to slide presentation](http://www.slideshare.net/AlenaHolligan/demystifying-objectoriented-programming-lone-star-php)
