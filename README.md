@@ -1,45 +1,41 @@
-#Introduction To Object-Oriented Programming With PHP
+## Introduction To Object-Oriented Programming With PHP
 
-For many programmers, object-oriented programming is a frightening concept, full of complicated syntax and other roadblocks. We’ll be learning the concepts behind object-oriented programming (OOP), a style of coding in which related actions are grouped into classes to aid in creating more-compact, effective code.
+Object-oriented programming is a frightening concept for some programmers due to its syntax complexity and unfamiliar concepts. We will learn the concepts of Object-oriented programming (OOP), which is a style of coding in which related actions are grouped into classes. It aids in creating compact, reusable, and more effective code.
 
-##Understanding Object-Oriented Programming
+## Understanding Object-Oriented Programming
 
-Object-oriented programming is a style of coding that allows developers to group similar tasks into classes. This helps keep code following the tenet “don’t repeat yourself” (DRY)and easy-to-maintain.
+Object-oriented programming allows the developers to group similar tasks into classes. This makes the code easier to maintain and it follows the tenet - “Do not repeat yourself” (DRY).
 
-“Object-oriented programming is a style of coding that allows developers to group similar tasks into classes.”
+One of the major benefits of DRY programming re-usability of code; if information changes in a program, only one module needs to be updated. Maintaining the code where same data is declared at multiple places is extremely challenging task. Making changes to the program becomes a long and frustrating task.
 
-One of the major benefits of DRY programming is that, if a piece of information changes in your program, usually only one change is required to update the code. One of the biggest nightmares for developers is maintaining code where data is declared over and over again, meaning any changes to the program become an infinitely more frustrating game of Where’s Waldo? as they hunt for duplicated data and functionality.
+OOP introduces new syntax which appears to be more complex than simple procedural, or inline code. However, upon closer inspection, OOP is actually a very straight-forward and simple approach to programming.
 
-OOP is intimidating to a lot of developers because it introduces new syntax and, at a glance, appears to be far more complex than simple procedural, or inline, code. However, upon closer inspection, OOP is actually a very straightforward and ultimately simpler approach to programming
+## Why PHP?
 
-##Why PHP?
+Besides the fact that it is a programming language of my choice, there are two reasons to start with PHP.
 
-Besides the fact that it is my programming language of choice, there are two reasons to start with PHP.
+# 1. PHP is widely used
 
-###PHP is widely used
+PHP is one of the most widely used server-side programming language (see this article, for example). It is very popular in the open source world, where applications like WordPress and Drupal live. PHP itself is an open source which means that your PHP skills will benefit different people (including you!).
 
-PHP is likely the most widely used server-side programming language (see this article, for example). It’s used on millions of servers world wide.
+# 2 PHP is (relatively) easy to learn
 
-PHP is very popular in the open source world, where applications like WordPress and Drupal live. One reason is that PHP is itself open source.
+Make no mistake: programming is challenging. For most people, anyway. People do not have trouble with the programming languages, but the way of thinking about the program design. It needs to be understood that it comes with practicing over the years. 
 
-This means that your PHP skills will have value to many different people (including you!).
+Some languages are easier to learn than others. For example, Java is one of the difficult languages to learn. Its complex structure, numerous libraries, and over-whelming functionality makes it hard for the beginners. Two of the easiest languages to learn are JavaScript and PHP due to their powerful and concise semantics. A few lines of code in JavaScript or PHP can do useful things. You can start writing practical programs quickly, without having to spend a lot of time with their pre-requisits.
 
-###PHP is (relatively) easy to learn
-
-Make no mistake: programming is hard. For most people, anyway.
-
-What people have trouble with is not the programming languages, but the way of thinking about program design. This only comes with practice, practice, and more practice.
-
-But still, some languages are easier to learn than others. Java is one of the more difficult. It’s a good language, but it’s very structured, and hard for beginners to get started with.
-
-Two of the easiest languages to learn are JavaScript and PHP. Even a few lines of JavaScript and PHP can do useful things. You can start writing programs quickly, without having to learn of lot of stuff first.
-
-##What you will need:
+# What you will need to get started with PHP:
 
 1. A computer
 2. A way to render PHP files.
 
-If you don’t have a anything yet, never fear, you have 2 options. If you have a reliable internet, one of the easiest ways is with Cloud9, so choose **Option 1**. If you actually want to set up a dev environment on your machine or you can’t rely on internet, choose **Option 2**.
+If you do not have anything yet, there are 2 options. 
+
+**Option 1**
+If you have a reliable internet, one of the easiest ways is with Cloud9. 
+
+**Option 2**
+If you actually want to set up a development environment on your machine or you cannot rely on internet .
 
 ###Option 1
 
@@ -61,8 +57,8 @@ http://www.vagrantup.com/downloads.html
 3. Download the file to set up your virtual machine here
 http://sketchings.com/wp-content/uploads/2015/02/puphpet.zip
 we will be using NGINX on Debian with PHP 5.6
-4. Extract the .zip file and move the contents (Vagrantfile and puphpet folder) to the location on your computer where you would like to store this project.
-5. Using the terminal, or cmd line, cd into your extracted directory and run `vagrant up`. This will kick-off the initial process.
+4. Extract the .zip file and move the contents (Vagrantfile and puphpet folder) to the desired storage location on your computer. 
+5. Using the terminal, or cmd line, cd into your extracted directory and run `vagrant up`. This will initiate the process.
   * Vagrant will download the box file, which can take a few minutes. It will only have to do this once, even if you create separate environments later on.
   * Then, it will hand control over to Puppet which will begin setting up your environment by installing required packages and configuring tools as desired.
   * You will then be able to ssh into your new box with `vagrant ssh`. You can also access any virtual hosts you created by editing your hosts file and creating entries for the Box IP Address and Server Name you provided during configuration (see step 6 below).
